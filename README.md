@@ -1,15 +1,11 @@
 docker-TAO
 ==========
 
-Dockernize ACE+TAO+BOOST+GCC+... 
+Dockerize ACE+TAO+BOOST+GCC+... 
 
 :construction:
 
 WIP: WORK IN PROGRESS
-
-1. Starts the build from an opensuse/tumbleweed image which I build myself from:
-2. http://github.com/openSUSE/docker-containers-build.git take the Tumbleweed branch
-3. git checkout the commit id for the tumbleweed branch.
 
 :construction_worker:
 
