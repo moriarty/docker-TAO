@@ -1,7 +1,16 @@
 docker-TAO
 ==========
 
-Dockernize TAO. 
+Dockernize ACE+TAO+BOOST+GCC+... 
+
+:construction:
+
+WIP: WORK IN PROGRESS
+
+1. Starts the build from an opensuse/tumbleweed image which I build myself from:
+2. http://github.com/openSUSE/docker-containers-build.git
+
+:construction_worker:
 
 What is TAO
 ------------------ 
@@ -18,10 +27,4 @@ communication software. Since TAO is built on ACE, ACE should be built first. Se
 Installation
 --------------------------------
 
-* Run ```build.sh```. The image name is yongfu/tao_ace. Replacing the name in ```build.sh``` if you like.
-* Run ```docker -i -t yongfu/tao_ace``` to explore.
-
 *  [Install TAO+ACE on Linux] (http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/TAO/TAO-INSTALL.html)
-
-* Compiling TAO+ACE is a really time-consuming process. So it is strongly suggested to pull the image from Docker's public repository directly.
-```docker pull yongfu/tao_ace```
