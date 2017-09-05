@@ -10,5 +10,5 @@ RUN zypper --non-interactive ar http://download.opensuse.org/repositories/devel:
 RUN zypper --non-interactive ar http://download.opensuse.org/repositories/devel:/tools:/building/openSUSE_Leap_42.3/devel:tools:building.repo
 RUN zypper --non-interactive --gpg-auto-import-keys refresh
 RUN zypper --non-interactive install ace-devel tao-devel
-RUN zypper --non-interactive install maven
+RUN zypper --non-interactive install maven git
 
