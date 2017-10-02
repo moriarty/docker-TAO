@@ -11,4 +11,4 @@ RUN zypper --non-interactive ar http://download.opensuse.org/repositories/devel:
 RUN zypper --non-interactive --gpg-auto-import-keys refresh
 RUN zypper --non-interactive install ace-devel tao-devel
 RUN zypper --non-interactive install maven git log4cpp-devel which
-
+RUN zypper --non-interactive install unixODBC-devel
